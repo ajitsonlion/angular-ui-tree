@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  angular.module('demoApp', ['ui.tree', 'ngRoute'])
+  angular.module('demoApp', ['ui.tree', 'ngRoute','ui-iconpicker'])
 
     .config(['$routeProvider', function ($routeProvider) {
       $routeProvider
